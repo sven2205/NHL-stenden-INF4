@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+<main class="container p-5" style="text-align:left;">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Loop through the database entries to display them in this table -->
+            {% for curr_price in curr_prices %}
+            <tr>
+                <td>{{ curr_price.symbol }}</td>
+                <td>{{ curr_price.name }}</td>
+                <td>{{ curr_price.shares }}</td>
+                <td>{{ usd(curr_price.curr_share_price) }}</td>
+                <td>{{ usd(curr_price.compound_shares) }}</td>
+            </tr>
+            {% endfor %}
+            <tr>
+                <td colspan="4"><b>Cash available:</b></td>
+                <td>{{ usd(cash) }}</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"><b>Equity:</b></td>
+                <td>{{ usd(total_equity) }}</td>
+            </tr>
+        </tfoot>
+    </table>
+</main>
+{% endblock %}

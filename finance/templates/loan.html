@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Loan
+{% endblock %}
+
+{% block main %}
+<main class="container p-5">
+    <form action="/loan" method="post">
+        <div class="form-group">
+            <input autocomplete="off" class="form-control" min="1" name="cash" placeholder="1000000" type="number">
+        </div>
+        <button class="btn btn-primary" type="submit">I want a small loan of a million dollars</button>
+    </form>
+</main>
+{% endblock %}
