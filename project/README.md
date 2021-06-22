@@ -2,7 +2,7 @@
 #### Video Demo:  <https://youtu.be/22-1GrwVZ4A>
 ## Description:
 
-## Background info of the general overview of molecular plant biology ()
+## Background info of the general overview of molecular plant biology
 My project consists of a python program that takes *raw* marker data and turns it into a usable genetic linkage map.
 The necessity for this program lays in the fact that plants are of vital importance; they provide us with food, oxygen,
 building materials, clothing and fuel. Without plants, our lives would be impossible. Since the early stage of
