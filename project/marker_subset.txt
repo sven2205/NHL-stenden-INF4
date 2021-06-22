@@ -1,0 +1,107 @@
+; Sat, 2 Jan 2016, 16:39:25
+
+name = CvixLerTest
+popt = RI8
+nloc = 144
+nind = 162
+
+PVV4 (a,b) ; 1
+  a a b a b  b a b b b  b b a a b  a a a a b  a b a b a  b b b b a  a b a b b  b b a a b  b a b a a  a b a b b
+  b b a a a  a b a a a  b b a b a  b a a b b  b a b b a  a b a b b  a a b b b  a b a a b  a a b b a  a a a b a
+  b a a b b  b a a b b  a a b b b  a a a a b  a a a b b  b b b a a  a b b a b  a b b a a  b b b b b  b b a a b
+  a b b b b  a a a b b  b b
+CRY2 (a,b) ; 2
+  a a b a b  b a b b b  b b b a b  a a a a b  a b a b b  a b b b a  a b a b b  b a a a b  b a b a a  a b a b b
+  b b a a a  a b a a a  b b a a a  b a b b a  b a b b a  a b a b b  a a b b b  b b b a b  a a b b a  a a a b a
+  b a a b b  b a a a b  a b b b b  a a a a b  a b a b a  b b b a a  a b b a b  b b b a a  b b b b b  b b b a b
+  a b b b a  a a b b b  b b
+DF.162L (a,b) ; 3
+  a a a a b  b a b b b  a b b a b  a b a a b  a b a b b  b b a b b  b b a b b  a a a a b  b a b a a  a b a b b
+  b a a a a  a b b a a  b b a a a  b b b b a  b a b b a  a b a b b  a a a b b  b b b a b  a a b b a  a b a b a
+  b a a b b  b a a a b  a b a b b  a a b a b  a a a b a  b a b a a  a b b a b  b b b a a  b b b b b  b a b b b
+  a b b b b  a a b b b  b a
+AXR-1 (a,b) ; 4
+  a a b a b  b a b b b  b b b a b  a a a a b  a b a b b  a b - b a  a b a b b  a a a a b  b a b a a  a b a b b
+  b b a a a  a b a a a  b b a a a  b a b b a  b a b b a  a b a b b  a a b b b  b b b a b  a a b b a  a a a b a
+  b a a b b  b a a a b  a b a b b  a a a a b  a b a b a  b b b a a  a b b a b  b b b a a  b b b b b  b b b a b
+  b b b b a  a a b b b  b b
+GD.86L (a,b) ; 5
+  a a a a b  b a a b b  a b b a b  a b a b b  a b b b b  b b - b b  b b a b b  a a a a b  b b a a a  a b a b a
+  b b a a a  b b b a a  b b b b a  b b a b a  b a b a a  a b b b b  b b a a b  b b b b a  a a b b a  a b a a b
+  a b a b b  a a a a b  a b a b b  a a a b b  b a a b a  b a b a a  a b b a b  a b b a a  b b b b b  b b b b b
+  a b b b b  b a b b b  b a
+g2395 (a,b) ; 6
+  b a a a b  b a a b b  a b b a b  a b a b b  a b b b b  b b a a b  b b a a b  a a a a b  b b a a a  a b a b a
+  b b a a a  b b b b a  b b b b a  b b a b a  b a b a a  a b b b b  b b a a b  b b b b a  a a b a a  a b b a b
+  a b a b b  a a a a b  b b a b b  a a b b b  b a a b a  b a b a a  a b b b b  a b b a b  b b b b b  b b b b b
+  a a b b b  b a b b b  a a
+HH.335C (a,b) ; 7
+  a a a a b  b a b b b  a b b a b  a b a a b  a b a b b  b b a b b  b b a b b  a a a a b  b a b a a  a b a b b
+  b a a a a  a b a a a  b b a a a  b b b b a  b a b b a  a b a b b  a a b b b  b b b a b  a a b b a  a a a b a
+  b a a b b  b a a a b  a b a b b  a a b a b  a a a b a  b a b a a  a b b a b  b b b a a  b b b b b  b a b a b
+  b b b b b  a a b b b  b b
+BH.147L (a,b) ; 8
+  a a a a b  b a a b b  a b b a b  a b a a b  a b a b b  b b a b b  b b a b b  a a a a b  b a b a a  a b a b b
+  b a a a a  b b b a a  b b b a a  b b b b a  b a b b a  a b a b b  a a a b b  b b b a b  a a b b a  a b a b a
+  b a a b b  b a a a b  a b a b b  a a b a b  a a a b a  b a b a a  a b b a b  b b b a a  b b b b b  b a b b b
+  a b b b b  a a b b b  b a
+EC.480C (a,b) ; 9
+  a a a a b  b a a b b  a b b a b  a b a a b  a b a b b  b b a b b  b b a b b  a a a a b  b b b a a  a b a b b
+  b b a a a  b b b a a  b b b a a  b b b b a  b a b b a  a b a b b  a a a b b  b b b a b  a a b b a  a b a b b
+  b a a b b  b a a a b  a b a b b  a a b a b  a a a b a  b a b a a  a b b a b  b b b a a  b b b b b  b a b b b
+  a b b b b  a a b b b  b a
+EC.66C (a,b) ; 10
+  a a a a b  b a a b b  a b b a b  a b a b b  a b a b b  b b - b b  b b a b b  a a a a b  b b b a a  a b a b b
+  b b a a a  b b b a a  b b b a a  b b a b a  b a b a a  a b b b b  b b a a b  b b b b b  a a b b a  a b a a b
+  a b a b b  a a a a b  a b a b b  a a b b b  b a a b a  b a b a a  a b b a b  a b b a a  b b b b b  b b b b b
+  a b b b b  b a b b b  b a
+CH.160L (a,b) ; 11
+  a a a a b  b a a b b  a b b a b  a b a b b  a b b b b  b b a a a  b b a - b  a a a a b  b b a a a  a b a b a
+  b b a a a  b b b b a  b b b b a  b b a b a  b a b a a  a b b b b  b b a a b  b a b b a  a a b a a  a b b b b
+  a a b b b  a a a a b  b b a b b  a a b b b  b a a a a  b a b a a  a b b b b  a b b a b  b a b b b  b b b b b
+  a a b b b  b a b b b  a a
+AD.121C (a,b) ; 12
+  a a a a a  b b a b b  a b b a b  a a a b b  b b a b b  a b a a a  a b b a b  a a a b a  a b a a a  a a a b a
+  b b a a a  b b b b a  b a b b a  b b a a a  b a b a a  a b b b b  b b a a b  b a b b a  a a b a a  a a b b a
+  a a b b b  b a a a b  a b a b b  b a - b a  b a a a a  b a b a a  a b b b a  a b a b b  b b b a b  b b b b b
+  b a b b b  b b b b b  a b
+AD.106L (a,b) ; 13
+  a a a a a  b b b b b  a b a a b  a a a b b  b b a b b  a b a a a  a b b a b  a a a b a  a b a a a  a a a b a
+  b b a a a  b b b b a  b a b b a  b b a a a  b a b a a  a b b b b  b b a a b  b a b b a  a a b a a  a a b b a
+  a a b b b  b a a a b  a b a b b  b a - b a  b a a a a  b a b a b  a b b b a  a b a b b  b b b a b  b b b b b
+  b a b b b  b b b b b  a b
+GB.112L (a,b) ; 14
+  a a b a a  b b b b b  a b a a b  a b a a a  b b a b b  a b a b a  a b a a b  a a a b a  a b b a a  a a a a a
+  b b a a a  b b b b a  b a b b a  b b a a a  a a a a a  a b b b b  b b a a b  b a b b a  a a a a a  b a b b b
+  a a b b b  b b a a a  b b a b b  a a b b a  b a a a b  b b a a b  b b a b a  a a a b b  b b a b b  a b b b b
+  b a b b b  b b b b b  a b
+FD.59C (a,b) ; 15
+  a a b a a  a b b b a  b a a b b  a a a b b  a b a a b  b b a b a  a - a b b  b a a b a  a b b a b  a a a a a
+  b b a a a  b b b b a  b a a b a  b b a b b  a a a a a  a b a b b  b b a a b  b a b a a  a b a a a  b a b b a
+  a a b a b  a a b a a  b a a b b  b a b a a  b a a a b  a b a a b  b b b b a  b a b b b  b b a b a  a b b a b
+  b a b b b  a b a b a  a b
+BH.106L (a,b) ; 16
+  a a b a a  b b b b b  a b a a b  a b a a a  b b a b b  a b a b a  a b a a b  a a a b a  a b b a a  a a a a a
+  b b a a a  b b b b a  b a b b a  b b a a a  a a a a a  a b b b b  b b a a b  b a b a a  a a a a a  b a b b b
+  a a b b b  b a - a a  b b a b b  a a b b a  b a a a b  b b a a b  b b a b b  a a a b b  b b a b b  a b b b b
+  b a b b b  b b b b b  a b
+GD.97L (a,b) ; 17
+  a a b a a  b b b b b  b a a a b  a b a b a  b b a a b  a b a b a  a b a b b  a a a b a  a b b a a  a a a a a
+  b b a a a  b b b b a  b a a b a  b b a b a  a a a a a  a b b b b  b b a a b  b a b a a  a b a a a  b a b b b
+  a a b a b  b a - a a  b b a b b  b a b a a  b a a a b  a b a a b  b b a b b  a a b b b  b b a b b  a b b a b
+  b a b b b  b b a b b  a a
+DF.93C (a,b) ; 18
+  a a b a a  a b b b b  b a a b b  a a a b a  a b a a a  b b a b a  a b a b b  b a a a a  a b b a b  a a a a a
+  b b a a a  b b b b a  b a a b a  b b a b b  a a a a a  a b b b b  b b a a b  b a b a a  a b a a a  b a b b a
+  a a b a b  a a b a a  b a a b b  b a b a a  b a a a b  a b a a b  b b b b b  b a b b b  b b a b b  a b b a b
+  b a b b b  a b a b a  a b
+CD.108L (a,b) ; 19
+  a a b a a  a b b b b  b a a b b  a b a b a  a b a a a  a b a b a  a b a b b  b a a a a  a b b a b  a a a a a
+  b b a a a  b b b b a  b a a b a  b b a b a  a a a a a  a b b b b  b b a a b  b a b a a  a b a a a  b a b b b
+  a a b a b  b a b a a  b b a b b  b a b a a  b a a a b  a b a a b  b b a b b  a a b b b  b b a b b  a b b a b
+  b a b b b  a b a b a  a b
+DF.85C (a,b) ; 20
+  a a b a a  a b b b a  b a a b b  a a a b a  a b a a a  b b a b a  a b a b b  b a a b a  a b b a b  a a a a a
+  b b a a a  b b b b a  b a a b a  b b a b b  a a a a a  a b b b b  b b a a b  b a b a a  a b a a a  b a b b a
+  a a b a b  a a b a a  b a a b b  b a b a a  b a a a b  a b a a b  b b b b b  b a b b b  b b a b b  a b b a b
+  b a b b b  a b a b a  a b
