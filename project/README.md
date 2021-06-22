@@ -17,9 +17,9 @@ new opportunities to study plant processes and improve crops. This uprising is n
 in the future. The improvement of crops is highly demanded, since our food production is threatened by the decrease
 of farmland due to the growing human population, imminent climate change and many plant diseases that destroy our crops.
 To ensure our food production in the future, we need crops that can grow more efficiently, have a higher
-nutritional value and are resistant to a variety of biotic and abiotic stress factors.
+nutritional value and are resistant to a variety of biotic and abiotic stress factors.~~
 
-Biodiscovery is a hot topic that encompasses the search for new crops, the improvement of crops and the search
+~~Biodiscovery is a hot topic that encompasses the search for new crops, the improvement of crops and the search
 for new secondary metabolites in plants. Modern molecular techniques, such as Next Generation Sequencing,
 produce a huge amount of data. Bio-informatics is a tool in biology to give some order in this chaos.
 Being able to perform data mining in molecular databases is a necessary skill for biologists. Using molecular tools,
